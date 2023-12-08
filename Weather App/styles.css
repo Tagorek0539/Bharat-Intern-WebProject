@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+#search-section {
+  padding: 20px;
+}
+
+#search-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+#search-input {
+  flex: 1;
+  padding: 10px;
+}
+
+#search-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+#result-section {
+  padding: 20px;
+}
+
+#result-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.weather-data {
+  flex: 1;
+  padding: 20px;
+}
