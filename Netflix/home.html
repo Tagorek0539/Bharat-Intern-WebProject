@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Netflix-like Home Page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #111;
+        color: #fff;
+      }
 
+      header {
+        padding: 20px;
+        text-align: center;
+        background-color: #111;
+        color: #e50914;
+        font-size: 24px;
+      }
+
+      section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 20px;
+      }
+
+      .movie {
+        margin: 10px;
+        padding: 10px;
+        background-color: #333;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+      }
+
+      .movie img {
+        width: 100%;
+        border-radius: 8px;
+      }
+
+      .movie:hover {
+        transform: scale(1.05);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>NETFLIX CLONE HOME PAGE</h1>
+    </header>
+
+    <section>
+      <div class="movie">
+        <img src="movie1.jpg" alt="Stranger Things" width="450" height="450" />
+        <h3>Stranger Things</h3>
+      </div>
+
+      <div class="movie">
+        <img src="movie2.jpg" alt="Movie 2" width="360" height="360" />
+        <h3>Breaking Bad</h3>
+      </div>
+
+      <!-- Add more movie elements as needed -->
+    </section>
+  </body>
+</html>
